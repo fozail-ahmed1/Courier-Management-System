@@ -1,0 +1,141 @@
+html {
+    scroll-behavior:smooth;
+}
+
+.navbar {
+    background-color: rgb(162, 191, 33) !important; 
+}
+.navbar-brand {
+    color : #D2691E !important;
+    font-size : 30px !important;
+    font-family: "Times New Roman", Times, serif;
+}
+.nav-item {
+    margin-left: 20px;
+    margin-right:20px;
+    color:black;
+}
+ .d-block {
+    margin-left:auto;
+    margin-right:auto;
+    width : 63vw !important;
+    height : 400px;
+}
+
+.slide {
+    text-align: center;
+    margin-top : 60px;
+    width : 70vw !important;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+ .slide-text {
+    color : green;
+    font-family : cursive;
+    font-size :30px;
+    font-weight : bold;
+}
+body {
+    font-family: Lucida Handwriting    , sans-serif;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 5px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+/* About - Us */
+
+.about-us{
+    font-size:30px;
+    margin : 20px;
+    background-color: rgba(204, 37, 140, 0.979);
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+  }
+  
+  #footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+  }
