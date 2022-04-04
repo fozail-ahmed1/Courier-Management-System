@@ -39,6 +39,7 @@
             margin-left : 700px;
             cursor :pointer;
         }
+        
         .error {
             margin-left : 23%;
             margin-top : 2%;
